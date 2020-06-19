@@ -1,8 +1,8 @@
 # esp32-game
 
 ## mejores instrucciones
-Se instalo esp-idf en windows, pero el resultado fue peor.  
-
+Se instaló esp-idf en windows, pero el resultado fue peor.  
+Se intentará en linux nuevamente. Estas instrucciones parecen resolver los problemas.  
 https://forum.odroid.com/viewtopic.php?f=158&t=35558  
 https://forum.odroid.com/viewtopic.php?f=158&t=35558  
 https://forum.odroid.com/viewtopic.php?f=158&t=38651  
