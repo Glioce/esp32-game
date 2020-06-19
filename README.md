@@ -3,11 +3,11 @@
 ## mejores instrucciones
 Se instalo esp-idf en windows, pero el resultado fue peor.  
 
-https://forum.odroid.com/viewtopic.php?f=158&t=35558
-https://forum.odroid.com/viewtopic.php?f=158&t=35558
-https://forum.odroid.com/viewtopic.php?f=158&t=38651
-https://forum.odroid.com/viewtopic.php?f=158&t=33624
-https://docs.espressif.com/projects/esp-idf/en/v3.2.2/get-started/index.html#get-esp-idf
+https://forum.odroid.com/viewtopic.php?f=158&t=35558  
+https://forum.odroid.com/viewtopic.php?f=158&t=35558  
+https://forum.odroid.com/viewtopic.php?f=158&t=38651  
+https://forum.odroid.com/viewtopic.php?f=158&t=33624  
+https://docs.espressif.com/projects/esp-idf/en/v3.2.2/get-started/index.html#get-esp-idf  
 
 ## cerca de compilar
 El problema actual es no poder construir/compilar esplay-base-firmware  
