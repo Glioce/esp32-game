@@ -9,6 +9,10 @@ https://forum.odroid.com/viewtopic.php?f=158&t=38651
 https://forum.odroid.com/viewtopic.php?f=158&t=33624  
 https://docs.espressif.com/projects/esp-idf/en/v3.2.2/get-started/index.html#get-esp-idf  
 
+## otra info
+https://forum.pycom.io/topic/3134/using-pycom-boards-with-arduino-ide
+https://docs.pycom.io/gitbook/assets/fipy-pinout.pdf
+
 ## cerca de compilar
 El problema actual es no poder construir/compilar esplay-base-firmware  
 (ver releases)  
