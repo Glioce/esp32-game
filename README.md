@@ -1,5 +1,10 @@
 # esp32-game
 
+Se intentó usar la tarjeta de desarrollo Pycom Fipy 1.0, pero tiene pines ocultos que son necesarios.  
+La tarjeta elegida para trabajar es ESP32-DevKitC-V4 (WROVER).  
+Pinout:  
+https://components101.com/microcontrollers/esp32-devkitc  
+
 ## mejores instrucciones
 Se instaló esp-idf en windows, pero el resultado fue peor.  
 Se intentará en linux nuevamente. Estas instrucciones parecen resolver los problemas.  
