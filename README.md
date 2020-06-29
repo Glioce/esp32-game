@@ -21,12 +21,41 @@ Ventajas:
 Desventajas  
 + Necesita ESP32 con flash de al menos 8MB  
 
-
-
 Se intentó usar la tarjeta de desarrollo Pycom Fipy 1.0, pero tiene pines ocultos que son necesarios.  
 La tarjeta elegida para trabajar es ESP32-DevKitC-V4 (WROVER).  
 Pinout:  
 https://components101.com/microcontrollers/esp32-devkitc  
+
+### Contribuciones a Odroid-Go  
+https://github.com/32teeth  
+https://github.com/retro-esp32/RetroESP32  
+https://github.com/retro-esp32/Retro-Odroid-Go-Firmware  
+Descripción general y cómo empezar  
+https://wiki.odroid.com/odroid_go/odroid_go  
+Cómo actualizar firmware  
+https://wiki.odroid.com/odroid_go/firmware_update  
+https://github.com/OtherCrashOverride/go-play
+Make SD card  
+https://wiki.odroid.com/odroid_go/make_sd_card  
+Colecciones de aplicaciones  
+https://forum.odroid.com/viewtopic.php?f=159&t=31716  
+https://github.com/chrisdiana/awesome-odroid-go  
+https://www.reddit.com/r/OdroidGo/comments/gk9l2w/collection_of_os_images_for_odroid_go_and_odroid/  
+
+Esquemático  
+https://github.com/hardkernel/ODROID-GO/blob/master/Documents/ODROID-GO_REV0.1_20180518.pdf  
+Otra consola basada en Odroid  
+https://www.tindie.com/products/handheld-gaming/retro-esp32/  
+Recompilar go-play  
+https://forum.odroid.com/viewtopic.php?t=32081  
+Datasheet PAM8304 monofónico
+https://www.diodes.com/assets/Datasheets/PAM8304.pdf
+Usaremos amplificador estéreo PAM8403
+
+### Contribucioes a Esplay-Micro
+https://github.com/pebri86/esplay-micro-firmware-collections
+Datasheet DAC audio  
+https://www.nxp.com/docs/en/data-sheet/UDA1334ATS.pdf  
 
 ## mejores instrucciones
 Se instaló esp-idf en windows, pero el resultado fue peor.  
