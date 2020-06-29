@@ -1,5 +1,24 @@
 # esp32-game
 
+Se probaron 2 bootloaders: Odroid-Go y Esplay-Micro.  
+Esplay-Micro  
+Ventajas:
++ Tiene más botones por lo que algunos juegos son más fáciles de usar (ej. Doom)
++ Funciona en ESP32 con flash de 4MB
+Desventajas:
++ Ocupa más pines para la tarjeta SD y para la salida de audio
++ La salida de audio es digital, por lo que se necesita un DAC externo
++ Los botones necesitan un módulo I2C externo
+
+Odroid-Go
+Ventajas:
++ Utiliza pocos módulos externos (pantalla SPI, lector de SD, y amplificador de audio opcional)
++ La pantalla y la SD comparten 3 pines SPI, se ahorran pines (la descripción de Esplay dice que esto puede causar problemas, pero hasta ahora no se han presentado)
++ Salida de audio analógico directo del ESP32
++ Tiene varios ports de juegos y launchers de emuladores
+Desventajas
++ Necesita ESP32 con flash de al menos 8MB
+
 Se intentó usar la tarjeta de desarrollo Pycom Fipy 1.0, pero tiene pines ocultos que son necesarios.  
 La tarjeta elegida para trabajar es ESP32-DevKitC-V4 (WROVER).  
 Pinout:  
@@ -60,61 +79,61 @@ http://www.lcdwiki.com/2.4inch_SPI_Module_ILI9341_SKU:MSP2402
 https://naylampmechatronics.com/blog/26_Tutorial-pantalla-TFT-t%C3%A1ctil-con-Arduino.html  
 
 
-ESPlay
+ESPlay  
 
-Resumen / venta ESPlay
-https://www.makerfabs.com/esplay-micro.html
+Resumen / venta ESPlay  
+https://www.makerfabs.com/esplay-micro.html  
 
-Página de ESPlay en Hackaday
-https://hackaday.io/project/166707-esplay-micro
+Página de ESPlay en Hackaday  
+https://hackaday.io/project/166707-esplay-micro  
 
-Review ESPlay
-https://www.youtube.com/watch?v=NfbxcjU85Ac
+Review ESPlay  
+https://www.youtube.com/watch?v=NfbxcjU85Ac  
 
-Repositorios ESPlay
-Colección de emuladores
-https://github.com/pebri86/esplay-retro-emulation
-Hardware (PCB)
-https://github.com/pebri86/esplay_micro_hardware
-Base firmware
-https://github.com/pebri86/esplay-base-firmware
-Firmware release
-https://github.com/pebri86/esplay-base-firmware/releases/tag/v1.0-esplay-micro
-Firmware collections
-https://github.com/pebri86/esplay-micro-firmware-collections
+Repositorios ESPlay  
+Colección de emuladores  
+https://github.com/pebri86/esplay-retro-emulation  
+Hardware (PCB)  
+https://github.com/pebri86/esplay_micro_hardware  
+Base firmware  
+https://github.com/pebri86/esplay-base-firmware  
+Firmware release  
+https://github.com/pebri86/esplay-base-firmware/releases/tag/v1.0-esplay-micro  
+Firmware collections  
+https://github.com/pebri86/esplay-micro-firmware-collections  
 
-Info fipy
-https://docs.pycom.io/datasheets/development/fipy/
-https://medium.com/home-wireless/the-pycom-lopy-long-range-transceiver-d8d80622adee
-Pinout fipy
-https://docs.pycom.io/datasheets/development/fipy/
+Info fipy  
+https://docs.pycom.io/datasheets/development/fipy/  
+https://medium.com/home-wireless/the-pycom-lopy-long-range-transceiver-d8d80622adee  
+Pinout fipy  
+https://docs.pycom.io/datasheets/development/fipy/  
 
-Info ESP32 Wrover
-https://www.14core.com/wiring-bootloading-and-flashing-the-espressif-esp32-wrover/
+Info ESP32 Wrover  
+https://www.14core.com/wiring-bootloading-and-flashing-the-espressif-esp32-wrover/  
 
-Usar TFT LCD con Arduino
-https://electropeak.com/learn/absolute-beginners-guide-to-tft-lcd-displays-by-arduino/
-https://electropeak.com/learn/arduino-2-4-touch-screen-lcd-shield-tutorial/
-https://www.instructables.com/id/How-to-use-24-inch-TFT-LCD-SPFD5408-with-Arduino-U/
-https://electronicavm.wordpress.com/2015/03/05/tft-lcd-touch-2-4-shield-para-arduino-uno/
+Usar TFT LCD con Arduino  
+https://electropeak.com/learn/absolute-beginners-guide-to-tft-lcd-displays-by-arduino/  
+https://electropeak.com/learn/arduino-2-4-touch-screen-lcd-shield-tutorial/  
+https://www.instructables.com/id/How-to-use-24-inch-TFT-LCD-SPFD5408-with-Arduino-U/  
+https://electronicavm.wordpress.com/2015/03/05/tft-lcd-touch-2-4-shield-para-arduino-uno/  
 
-Pantalla LCD TFT
-Esta se compró primero pero usa comunicación en paralelo (8 bits)
-http://www.lcdwiki.com/2.4inch_Arduino_Display
-Viene configurada desde adentro, en los pines del flexo (ribbon cable) solo se pueden acceder a otros pines paralelos
-http://www.lcdwiki.com/Main_Page
-Responder en Foro que no se puede cambiar el bus
-https://forum.arduino.cc/index.php?topic=357982.0
+Pantalla LCD TFT  
+Esta se compró primero pero usa comunicación en paralelo (8 bits)  
+http://www.lcdwiki.com/2.4inch_Arduino_Display  
+Viene configurada desde adentro, en los pines del flexo (ribbon cable) solo se pueden acceder a otros pines paralelos  
+http://www.lcdwiki.com/Main_Page  
+Responder en Foro que no se puede cambiar el bus  
+https://forum.arduino.cc/index.php?topic=357982.0  
 
-Búsqueda de pantallas
-Para RPi ili9341
-https://www.geekfactory.mx/tienda/raspberry-pi/shield-pantalla-lcd-tactil-2-8-pulgadas-para-raspberry-pi-itead/
-http://madrigalelectronics.com/raspberry-pi-4b-3b-2.8-inch-touchscreen-tft-spi-display-with-touch-pen.html?currency=MXN
-https://hetpro-store.com/lcd-tft-2.8-touch-resistivo-para-raspberry-pi-stmpe610ili9341/
+Búsqueda de pantallas  
+Para RPi ili9341  
+https://www.geekfactory.mx/tienda/raspberry-pi/shield-pantalla-lcd-tactil-2-8-pulgadas-para-raspberry-pi-itead/  
+http://madrigalelectronics.com/raspberry-pi-4b-3b-2.8-inch-touchscreen-tft-spi-display-with-touch-pen.html?currency=MXN  
+https://hetpro-store.com/lcd-tft-2.8-touch-resistivo-para-raspberry-pi-stmpe610ili9341/  
 
-Posible
-https://sandorobotics.com/producto/im140714002/
-https://www.electronicaestudio.com/tienda/robotica-estudio/pantalla-2-4-tactil-serial/
+Posible  
+https://sandorobotics.com/producto/im140714002/  
+https://www.electronicaestudio.com/tienda/robotica-estudio/pantalla-2-4-tactil-serial/  
 http://madrigalelectronics.com/3.2-tft-lcd-shield--touch-panel-tf-reader-for-arduino.html?currency=MXN
 
 Perfecta
