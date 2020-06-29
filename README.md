@@ -32,6 +32,12 @@ https://www.mouser.mx/ProductDetail/Espressif-Systems/ESP32-WROVER-IB-16MB?qs=sG
 8MB  
 https://www.mouser.mx/ProductDetail/Espressif-Systems/ESP32-WROVER-B-8MB?qs=sGAEpiMZZMu3sxpa5v1qrgLFJPTQ7Q2rs709VLUkb90%3D  
 https://www.mouser.mx/ProductDetail/Espressif-Systems/ESP32-WROVER-IB-8MB?qs=sGAEpiMZZMu3sxpa5v1qrgLFJPTQ7Q2rhiPGTUzM78o%3D  
+La terminación "-B" indica Meandered Inverted-F Antenna  
+https://en.wikipedia.org/wiki/Inverted-F_antenna  
+La terminación "-IB" indeca U.FL Antenna  
+https://en.wikipedia.org/wiki/Hirose_U.FL  
+
+
 
 ### Contribuciones a Odroid-Go  
 https://github.com/32teeth  
