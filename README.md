@@ -22,9 +22,16 @@ Desventajas
 + Necesita ESP32 con flash de al menos 8MB  
 
 Se intentó usar la tarjeta de desarrollo Pycom Fipy 1.0, pero tiene pines ocultos que son necesarios.  
-La tarjeta elegida para trabajar es ESP32-DevKitC-V4 (WROVER).  
+La tarjeta utilizada para las primeras pruebas es ESP32-DevKitC-V4 (WROVER 4MB).  
 Pinout:  
 https://components101.com/microcontrollers/esp32-devkitc  
+
+Se usará un ESP32 con 16MB castelado para el dispositivo final  
+https://www.mouser.mx/ProductDetail/Espressif-Systems/ESP32-WROVER-B-16MB?qs=sGAEpiMZZMu3sxpa5v1qrgLFJPTQ7Q2r6%2Fk%2Fforxl60=  
+https://www.mouser.mx/ProductDetail/Espressif-Systems/ESP32-WROVER-IB-16MB?qs=sGAEpiMZZMu3sxpa5v1qrgLFJPTQ7Q2raQ%252Bbp2DOsnE%3D  
+8MB  
+https://www.mouser.mx/ProductDetail/Espressif-Systems/ESP32-WROVER-B-8MB?qs=sGAEpiMZZMu3sxpa5v1qrgLFJPTQ7Q2rs709VLUkb90%3D  
+https://www.mouser.mx/ProductDetail/Espressif-Systems/ESP32-WROVER-IB-8MB?qs=sGAEpiMZZMu3sxpa5v1qrgLFJPTQ7Q2rhiPGTUzM78o%3D  
 
 ### Contribuciones a Odroid-Go  
 https://github.com/32teeth  
@@ -69,6 +76,9 @@ https://docs.espressif.com/projects/esp-idf/en/v3.2.2/get-started/index.html#get
 ## otra info
 https://forum.pycom.io/topic/3134/using-pycom-boards-with-arduino-ide
 https://docs.pycom.io/gitbook/assets/fipy-pinout.pdf
+https://hackaday.io/project/163464-gaming-on-the-esp32-odroid-go  
+https://www.instructables.com/id/Homemade-Odroid-go-Compatible-Game-Console/  
+https://neonaut.neocities.org/blog/2020/gaming-with-the-esp32.html  
 
 ## cerca de compilar
 El problema actual es no poder construir/compilar esplay-base-firmware  
