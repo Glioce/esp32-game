@@ -25,6 +25,8 @@ Se intentó usar la tarjeta de desarrollo Pycom Fipy 1.0, pero tiene pines ocult
 La tarjeta utilizada para las primeras pruebas es ESP32-DevKitC-V4 (WROVER 4MB).  
 Pinout:  
 https://components101.com/microcontrollers/esp32-devkitc  
+Las versiones antiguas de Odroid (con terminación psram) funcionan en ESP32 WROVER con memoria de 4 MB.
+https://wiki.odroid.com/odroid_go/firmware_update_oldfw
 
 Se usará un ESP32 con 16MB castelado para el dispositivo final  
 https://www.mouser.mx/ProductDetail/Espressif-Systems/ESP32-WROVER-B-16MB?qs=sGAEpiMZZMu3sxpa5v1qrgLFJPTQ7Q2r6%2Fk%2Fforxl60=  
