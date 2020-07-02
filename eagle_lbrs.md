@@ -21,3 +21,6 @@ https://github.com/32teeth/Eagle-Libraries-by-32teeth/tree/master/lbr
 
 ###Push button tactile 2pin  
 https://www.diymodules.org/eagle-show-library?type=usr&id=2105&part=switch-tact.lbr  
+
+###Tutorial crear componentes electrónicos en Fusion 360  
+https://www.youtube.com/watch?v=zqar0XWtFaY  
