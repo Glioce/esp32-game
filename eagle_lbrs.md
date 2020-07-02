@@ -18,3 +18,6 @@ https://datasheet.lcsc.com/szlcsc/2002271736_XKB-Enterprise-TM-2027_C318948.pdf
 ###ESP32 WROVER  
 Se utilizó versión de 32teeth  
 https://github.com/32teeth/Eagle-Libraries-by-32teeth/tree/master/lbr  
+
+###Push button tactile 2pin  
+https://www.diymodules.org/eagle-show-library?type=usr&id=2105&part=switch-tact.lbr  
