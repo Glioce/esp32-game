@@ -1,4 +1,4 @@
-###Mini joystick ALPS SKRHABE010  
+#Mini joystick ALPS SKRHABE010  
 Se conecta en "diagonal"
 https://www.mikroe.com/blog/a-smart-navigation-key-concept
 
