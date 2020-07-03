@@ -39,3 +39,5 @@ https://www.autodesk.com/products/eagle/blog/design-rule-check-pcb-layout-basics
 Al parecer hay un bug en F360. La capa "solder mask" ignora los pads de componentes SMD  
 https://forums.autodesk.com/t5/fusion-360-electronics/solder-mask-in-3d-pcb-ignores-tstop-and-bstop/td-p/9477740  
 Se puede solucionar importando el diseño en Eagle  
+
+Para exportar PDF desde F360 escribir `PRINT` en la barra de comandos.  
