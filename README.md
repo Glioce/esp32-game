@@ -29,4 +29,4 @@ La carpeta "hardware" contiene información de los dispositivos electrónicos pr
 
 La carpeta "software" contiene información del software instalado en el esp-32.  
 
-La carpeta xtra tiene recusos interesantes, pero que no son necesarios en el estado final del proyecto.  
+La carpeta "xtra" tiene recusos interesantes, pero que no son necesarios en el estado final del proyecto.  
