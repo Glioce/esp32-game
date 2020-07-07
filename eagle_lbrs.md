@@ -1,4 +1,4 @@
-**Mini joystick XKB-Enterprise-TM-2027**  
+## Mini joystick XKB-Enterprise-TM-2027  
 https://datasheet.lcsc.com/szlcsc/2002271736_XKB-Enterprise-TM-2027_C318948.pdf  
 Se creó el componente en Fusion 360 (símbolo y footprint)
 
@@ -17,15 +17,15 @@ https://github.com/sparkfun/SparkFun-Eagle-Libraries
 otros formatos  
 https://componentsearchengine.com/part/2856952/model/download  
 
-**ESP32 WROVER**  
+## ESP32 WROVER  
 Se utilizó versión de 32teeth  
 https://github.com/32teeth/Eagle-Libraries-by-32teeth/tree/master/lbr  
 
-**Push button tactile 2pin**  
+## Push button tactile 2pin  
 https://www.diymodules.org/eagle-show-library?type=usr&id=2105&part=switch-tact.lbr  
 No es la medida exacta, las terminales deben tener distancia entre centros de 0.2 in.  
 
-**Tutoriales**  
+## Tutoriales  
 Crear componentes electrónicos en Fusion 360  
 https://www.youtube.com/watch?v=zqar0XWtFaY  
 
@@ -35,7 +35,7 @@ https://www.autodesk.com/products/eagle/blog/every-layer-explained-autodesk-eagl
 Llenar espacio vacío de PCB con cobre  
 https://www.autodesk.com/products/eagle/blog/design-rule-check-pcb-layout-basics-3/
 
-**Notas**  
+## Notas  
 Al parecer hay un bug en F360. La capa "solder mask" ignora los pads de componentes SMD  
 https://forums.autodesk.com/t5/fusion-360-electronics/solder-mask-in-3d-pcb-ignores-tstop-and-bstop/td-p/9477740  
 Se puede solucionar importando el diseño en Eagle  
