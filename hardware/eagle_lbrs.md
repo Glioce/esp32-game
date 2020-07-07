@@ -1,4 +1,5 @@
 ## Mini joystick XKB-Enterprise-TM-2027  
+https://lcsc.com/product-detail/Multi-Directional-Switches_XKB-Enterprise-TM-2027_C318948.html  
 https://datasheet.lcsc.com/szlcsc/2002271736_XKB-Enterprise-TM-2027_C318948.pdf  
 Se creó el componente en Fusion 360 (símbolo y footprint)
 
