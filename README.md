@@ -1,7 +1,8 @@
 # esp32-game
 
 Se probaron 2 bootloaders: Odroid-Go y Esplay-Micro.  
-Esplay-Micro  
+
+**Esplay-Micro**  
 Ventajas:  
 + Tiene más botones por lo que algunos juegos son más fáciles de usar (ej. Doom)  
 + Funciona en ESP32 con flash de 4MB  
@@ -11,7 +12,7 @@ Desventajas:
 + La salida de audio es digital, por lo que se necesita un DAC externo  
 + Los botones necesitan un módulo I2C externo  
 
-Odroid-Go  
+**Odroid-Go**  
 Ventajas:  
 + Utiliza pocos módulos externos (pantalla SPI, lector de SD, y amplificador de audio opcional)  
 + La pantalla y la SD comparten 3 pines SPI, se ahorran pines (la descripción de Esplay dice que esto puede causar problemas, pero hasta ahora no se han presentado)  
@@ -21,182 +22,11 @@ Ventajas:
 Desventajas  
 + Necesita ESP32 con flash de al menos 8MB  
 
-Se intentó usar la tarjeta de desarrollo Pycom Fipy 1.0, pero tiene pines ocultos que son necesarios.  
-La tarjeta utilizada para las primeras pruebas es ESP32-DevKitC-V4 (WROVER 4MB).  
-Pinout:  
-https://components101.com/microcontrollers/esp32-devkitc  
-Las versiones antiguas de Odroid (con terminación psram) funcionan en ESP32 WROVER con memoria de 4 MB.
-https://wiki.odroid.com/odroid_go/firmware_update_oldfw
+Se eligió Odroid-Go porque utiliza pocos componentes electrónicos.  
 
-Se usará un ESP32 con 16MB castelado para el dispositivo final  
-https://www.mouser.mx/ProductDetail/Espressif-Systems/ESP32-WROVER-B-16MB?qs=sGAEpiMZZMu3sxpa5v1qrgLFJPTQ7Q2r6%2Fk%2Fforxl60=  
-https://www.mouser.mx/ProductDetail/Espressif-Systems/ESP32-WROVER-IB-16MB?qs=sGAEpiMZZMu3sxpa5v1qrgLFJPTQ7Q2raQ%252Bbp2DOsnE%3D  
-8MB  
-https://www.mouser.mx/ProductDetail/Espressif-Systems/ESP32-WROVER-B-8MB?qs=sGAEpiMZZMu3sxpa5v1qrgLFJPTQ7Q2rs709VLUkb90%3D  
-https://www.mouser.mx/ProductDetail/Espressif-Systems/ESP32-WROVER-IB-8MB?qs=sGAEpiMZZMu3sxpa5v1qrgLFJPTQ7Q2rhiPGTUzM78o%3D  
-La terminación "-B" indica Meandered Inverted-F Antenna  
-https://en.wikipedia.org/wiki/Inverted-F_antenna  
-La terminación "-IB" indeca U.FL Antenna  
-https://en.wikipedia.org/wiki/Hirose_U.FL  
+## Organización
+La carpeta "hardware" contiene información de los dispositivos electrónicos probados y los diseños personalizados.  
 
+La carpeta "software" contiene información del software instalado en el esp-32.  
 
-
-### Contribuciones a Odroid-Go  
-https://github.com/32teeth  
-https://github.com/retro-esp32/RetroESP32  
-https://github.com/retro-esp32/Retro-Odroid-Go-Firmware  
-Descripción general y cómo empezar  
-https://wiki.odroid.com/odroid_go/odroid_go  
-Cómo actualizar firmware  
-https://wiki.odroid.com/odroid_go/firmware_update  
-https://github.com/OtherCrashOverride/go-play
-Make SD card  
-https://wiki.odroid.com/odroid_go/make_sd_card  
-Colecciones de aplicaciones  
-https://forum.odroid.com/viewtopic.php?f=159&t=31716  
-https://github.com/chrisdiana/awesome-odroid-go  
-https://www.reddit.com/r/OdroidGo/comments/gk9l2w/collection_of_os_images_for_odroid_go_and_odroid/  
-
-Esquemático  
-https://github.com/hardkernel/ODROID-GO/blob/master/Documents/ODROID-GO_REV0.1_20180518.pdf  
-Otra consola basada en Odroid  
-https://www.tindie.com/products/handheld-gaming/retro-esp32/  
-Recompilar go-play  
-https://forum.odroid.com/viewtopic.php?t=32081  
-Datasheet PAM8304 monofónico
-https://www.diodes.com/assets/Datasheets/PAM8304.pdf
-Usaremos amplificador estéreo PAM8403
-
-### Contribucioes a Esplay-Micro
-https://github.com/pebri86/esplay-micro-firmware-collections
-Datasheet DAC audio  
-https://www.nxp.com/docs/en/data-sheet/UDA1334ATS.pdf  
-
-## mejores instrucciones
-Se instaló esp-idf en windows, pero el resultado fue peor.  
-Se intentará en linux nuevamente. Estas instrucciones parecen resolver los problemas.  
-https://forum.odroid.com/viewtopic.php?f=158&t=35558  
-https://forum.odroid.com/viewtopic.php?f=158&t=35558  
-https://forum.odroid.com/viewtopic.php?f=158&t=38651  
-https://forum.odroid.com/viewtopic.php?f=158&t=33624  
-https://docs.espressif.com/projects/esp-idf/en/v3.2.2/get-started/index.html#get-esp-idf  
-
-## otra info
-https://forum.pycom.io/topic/3134/using-pycom-boards-with-arduino-ide
-https://docs.pycom.io/gitbook/assets/fipy-pinout.pdf
-https://hackaday.io/project/163464-gaming-on-the-esp32-odroid-go  
-https://www.instructables.com/id/Homemade-Odroid-go-Compatible-Game-Console/  
-https://neonaut.neocities.org/blog/2020/gaming-with-the-esp32.html  
-
-## cerca de compilar
-El problema actual es no poder construir/compilar esplay-base-firmware  
-(ver releases)  
-https://github.com/pebri86/esplay-base-firmware
-
-Platformio puede servir  
-https://docs.platformio.org/en/latest/boards/espressif32/odroid_esp32.html  
-Zephyr?  
-https://docs.zephyrproject.org/latest/boards/xtensa/odroid_go/doc/index.html  
-
-Foro de odroid. Solucionan error en windows  
-https://forum.odroid.com/viewtopic.php?f=158&t=35558  
-
-Artículos complicados instalar esp-idf  
-https://medium.com/@jungpil.yu/esp-idf-based-development-environment-for-odroid-go-e27ff41b4adf  
-https://lerks.blog/build-apps-for-odroid-go-using-esp-idf/  
-
-Versión parchada esp-idf  
-https://github.com/OtherCrashOverride/esp-idf  
-v3.2-odroid  
-https://github.com/OtherCrashOverride/esp-idf/tree/release/v3.2-odroid  
-
-Doc oficial esp-idf  
-Instalar toolchain  
-https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/linux-setup.html  
-Get started  
-https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html  
-Get satarted 4.0.1  
-https://docs.espressif.com/projects/esp-idf/en/stable/get-started/  
-
-Página de esplay en hackaday  
-https://hackaday.io/project/166707-esplay-micro  
-
-Repo de retro-emulation tiene instrucciones de compilación  
-https://github.com/pebri86/esplay-retro-emulation  
-
-## LCD
-Versión ISP  
-http://www.lcdwiki.com/2.4inch_SPI_Module_ILI9341_SKU:MSP2402  
-https://naylampmechatronics.com/blog/26_Tutorial-pantalla-TFT-t%C3%A1ctil-con-Arduino.html  
-
-
-ESPlay  
-
-Resumen / venta ESPlay  
-https://www.makerfabs.com/esplay-micro.html  
-
-Página de ESPlay en Hackaday  
-https://hackaday.io/project/166707-esplay-micro  
-
-Review ESPlay  
-https://www.youtube.com/watch?v=NfbxcjU85Ac  
-
-Repositorios ESPlay  
-Colección de emuladores  
-https://github.com/pebri86/esplay-retro-emulation  
-Hardware (PCB)  
-https://github.com/pebri86/esplay_micro_hardware  
-Base firmware  
-https://github.com/pebri86/esplay-base-firmware  
-Firmware release  
-https://github.com/pebri86/esplay-base-firmware/releases/tag/v1.0-esplay-micro  
-Firmware collections  
-https://github.com/pebri86/esplay-micro-firmware-collections  
-
-Info fipy  
-https://docs.pycom.io/datasheets/development/fipy/  
-https://medium.com/home-wireless/the-pycom-lopy-long-range-transceiver-d8d80622adee  
-Pinout fipy  
-https://docs.pycom.io/datasheets/development/fipy/  
-
-Info ESP32 Wrover  
-https://www.14core.com/wiring-bootloading-and-flashing-the-espressif-esp32-wrover/  
-
-Usar TFT LCD con Arduino  
-https://electropeak.com/learn/absolute-beginners-guide-to-tft-lcd-displays-by-arduino/  
-https://electropeak.com/learn/arduino-2-4-touch-screen-lcd-shield-tutorial/  
-https://www.instructables.com/id/How-to-use-24-inch-TFT-LCD-SPFD5408-with-Arduino-U/  
-https://electronicavm.wordpress.com/2015/03/05/tft-lcd-touch-2-4-shield-para-arduino-uno/  
-
-Pantalla LCD TFT  
-Esta se compró primero pero usa comunicación en paralelo (8 bits)  
-http://www.lcdwiki.com/2.4inch_Arduino_Display  
-Viene configurada desde adentro, en los pines del flexo (ribbon cable) solo se pueden acceder a otros pines paralelos  
-http://www.lcdwiki.com/Main_Page  
-Responder en Foro que no se puede cambiar el bus  
-https://forum.arduino.cc/index.php?topic=357982.0  
-
-Búsqueda de pantallas  
-Para RPi ili9341  
-https://www.geekfactory.mx/tienda/raspberry-pi/shield-pantalla-lcd-tactil-2-8-pulgadas-para-raspberry-pi-itead/  
-http://madrigalelectronics.com/raspberry-pi-4b-3b-2.8-inch-touchscreen-tft-spi-display-with-touch-pen.html?currency=MXN  
-https://hetpro-store.com/lcd-tft-2.8-touch-resistivo-para-raspberry-pi-stmpe610ili9341/  
-
-Posible  
-https://sandorobotics.com/producto/im140714002/  
-https://www.electronicaestudio.com/tienda/robotica-estudio/pantalla-2-4-tactil-serial/  
-http://madrigalelectronics.com/3.2-tft-lcd-shield--touch-panel-tf-reader-for-arduino.html?currency=MXN
-
-Perfecta
-https://articulo.mercadolibre.com.mx/MLM-553195850-lcd-serial-spi-22-240x320-pixeles-socket-sd-ili9341-qvga-_JM
-
-
-
-Otras consolas que usan ESP32
-
-Game Wing
-https://www.youtube.com/watch?v=Aw9cLeh3I_Y
-
-DIY 10 players
-https://www.youtube.com/watch?v=VvkpKVtYKmk
-
+La carpeta xtra tiene recusos interesantes, pero que no son necesarios en el estado final del proyecto.  
