@@ -11,6 +11,12 @@ https://www.youtube.com/watch?v=VvkpKVtYKmk
 esp-8-bit
 https://github.com/rossumur/esp_8_bit  
 
+https://neonaut.neocities.org/blog/2020/gaming-with-the-esp32.html  
+https://hackaday.io/project/163464-gaming-on-the-esp32-odroid-go  
+
+En este instructable instalan memoria extra en el ESP32  
+https://www.instructables.com/id/Homemade-Odroid-go-Compatible-Game-Console/  
+
 Se intentó usar la tarjeta de desarrollo Pycom Fipy 1.0, pero tiene pines ocultos que son necesarios.  
 La tarjeta utilizada para las primeras pruebas es ESP32-DevKitC-V4 (WROVER 4MB).  
 Pinout:  
