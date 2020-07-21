@@ -14,12 +14,12 @@ Desventajas:
 
 **Odroid-Go**  
 Ventajas:  
-+ Utiliza pocos módulos externos (pantalla SPI, lector de SD, y amplificador de audio opcional)  
-+ La pantalla y la SD comparten 3 pines SPI, se ahorran pines (la descripción de Esplay dice que esto puede causar problemas, pero hasta ahora no se han presentado)  
++ Utiliza pocos módulos externos (solo pantalla SPI, lector de SD y amplificador de audio opcional)  
 + Salida de audio analógico directo del ESP32  
 + Tiene varios ports de juegos y launchers de emuladores  
 
 Desventajas  
++ La pantalla y la SD comparten 3 pines SPI, se ahorran pines, pero a veces ocurren errores en la lectura de la SD (poco frecuente).  
 + Necesita ESP32 con flash de al menos 8MB  
 
 Se eligió Odroid-Go porque utiliza pocos componentes electrónicos.  
