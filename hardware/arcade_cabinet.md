@@ -37,11 +37,13 @@ https://3dwarehouse.sketchup.com/model/3ecf25d98ad15f0371d096a6914e7333/Playchoi
 
 PlayChoice 10 descripción en arcade-museum  
 https://www.arcade-museum.com/game_detail.php?game_id=9043  
+https://www.arcade-museum.com/game_detail.php?game_id=10431  
 
 Fotos de piezas mdf  
 http://customonesixth.com/index.php?threads/bttf2-wild-gunman-arcade.186111/  
 
+Réplica escala 1/6 y escena de Volver al Futuro  
 https://www.youtube.com/watch?v=NgLJ3LMm0e8  
+
+Jugando  
 https://www.youtube.com/watch?v=zjZtKdqMgHk  
-https://www.arcade-museum.com/game_detail.php?game_id=10431  
-http://customonesixth.com/index.php?threads/bttf2-wild-gunman-arcade.186111/  
