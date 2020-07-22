@@ -26,6 +26,22 @@ https://github.com/32teeth/Eagle-Libraries-by-32teeth/tree/master/lbr
 https://www.diymodules.org/eagle-show-library?type=usr&id=2105&part=switch-tact.lbr  
 No es la medida exacta, las terminales deben tener distancia entre centros de 0.2 in.  
 
+Se cambiarán por botones de 4 pines con vástago largo.  
+
+## Conector Micro USB B  
+https://en.wikipedia.org/wiki/USB  
+
+Through hole  
+https://github.com/snakeye/eagle-lib/tree/master/connectors  
+https://www.diymodules.org/eagle-show-object?type=usr&id=1012211711&device=ZX62D-B-5PA8  
+https://www.diymodules.org/eagle-show-object?type=usr&id=1012211141&device=ZX62D-B-5P8  
+
+SMD  
+https://github.com/dvdnhm/Maker-Tools-Eagle-Libraries  
+
+Podría tomarse de aquí  
+https://github.com/adafruit/Adafruit-Pro-Trinket-PCBs  
+
 ## Tutoriales  
 Crear componentes electrónicos en Fusion 360  
 https://www.youtube.com/watch?v=zqar0XWtFaY  
