@@ -41,5 +41,6 @@ https://www.arcade-museum.com/game_detail.php?game_id=10431
 
 Réplica escala 1/6 y escena de Volver al Futuro  
 https://www.youtube.com/watch?v=NgLJ3LMm0e8  
+https://backtothefuture.fandom.com/wiki/Wild_Gunman  
 Fotos de piezas mdf  
 http://customonesixth.com/index.php?threads/bttf2-wild-gunman-arcade.186111/  
