@@ -44,3 +44,10 @@ https://www.youtube.com/watch?v=NgLJ3LMm0e8
 https://backtothefuture.fandom.com/wiki/Wild_Gunman  
 Fotos de piezas mdf  
 http://customonesixth.com/index.php?threads/bttf2-wild-gunman-arcade.186111/  
+
+## Controles  
+Nintendo joysticks  
+https://www.mikesarcade.com/arcade/njoysticks.html  
+
+Joystick and Button Attributes and Brand Parts  
+http://www.slagcoin.com/joystick/attributes_brands.html  
