@@ -125,3 +125,6 @@ http://madrigalelectronics.com/3.2-tft-lcd-shield--touch-panel-tf-reader-for-ard
 
 Perfecta
 https://articulo.mercadolibre.com.mx/MLM-553195850-lcd-serial-spi-22-240x320-pixeles-socket-sd-ili9341-qvga-_JM  
+
+## Historia de Arcades de Nintendo  
+https://tiredoldhack.com/2017/09/16/the-complete-history-of-nintendo-arcade-games/  
