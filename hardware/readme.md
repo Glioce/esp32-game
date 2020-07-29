@@ -18,3 +18,7 @@ https://wiki.odroid.com/odroid_go/silent_volume
 Versión ISP  
 http://www.lcdwiki.com/2.4inch_SPI_Module_ILI9341_SKU:MSP2402  
 https://naylampmechatronics.com/blog/26_Tutorial-pantalla-TFT-t%C3%A1ctil-con-Arduino.html  
+
+## Diferencias de módulos ESP32  
+https://www.espressif.com/en/products/modules  
+https://en.wikipedia.org/wiki/ESP32  
