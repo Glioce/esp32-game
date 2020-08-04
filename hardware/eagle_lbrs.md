@@ -42,6 +42,13 @@ https://github.com/dvdnhm/Maker-Tools-Eagle-Libraries
 Podría tomarse de aquí  
 https://github.com/adafruit/Adafruit-Pro-Trinket-PCBs  
 
+## Amplificador PAM8403
+http://mrityunjai.in/eagle-cad-library-for-pam8403/  
+
+Módulo y esquemático (Sunrom)  
+https://www.geekfactory.mx/tienda/modulos-para-desarrollo/pam8403-modulo-amplificador-de-audio/  
+https://www.sunrom.com/p/stereo-audio-amplifier-pam8403
+
 ## Tutoriales  
 Crear componentes electrónicos en Fusion 360  
 https://www.youtube.com/watch?v=zqar0XWtFaY  
