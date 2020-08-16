@@ -1,15 +1,18 @@
 ### Esquemático  
 https://github.com/hardkernel/ODROID-GO/blob/master/Documents/ODROID-GO_REV0.1_20180518.pdf  
 
+Características técnicas de Odroid-Go  
+https://wiki.odroid.com/odroid_go/odroid_go  
+
 Otra consola basada en Odroid  
 https://www.tindie.com/products/handheld-gaming/retro-esp32/  
 
 Recompilar go-play  
 https://forum.odroid.com/viewtopic.php?t=32081  
 
-Datasheet PAM8304 monofónico
-https://www.diodes.com/assets/Datasheets/PAM8304.pdf
-Usaremos amplificador estéreo PAM8403
+Datasheet PAM8304 monofónico  
+https://www.diodes.com/assets/Datasheets/PAM8304.pdf  
+Usaremos amplificador estéreo PAM8403  
 
 ### Bajar volumen
 https://wiki.odroid.com/odroid_go/silent_volume
