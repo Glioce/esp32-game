@@ -22,3 +22,6 @@ https://naylampmechatronics.com/blog/26_Tutorial-pantalla-TFT-t%C3%A1ctil-con-Ar
 ## Diferencias de módulos ESP32  
 https://www.espressif.com/en/products/modules  
 https://en.wikipedia.org/wiki/ESP32  
+
+Datasheet  
+https://www.espressif.com/sites/default/files/documentation/esp32-wrover_datasheet_en.pdf  
