@@ -1,5 +1,4 @@
-
-Esta carpeta contine dos programas para probar LCD TFT en Arduino.  
+Esta carpeta contine dos programas para probar LCD TFT paralelo en Arduino.  
 
 ## Otras consolas que usan ESP32
 Game Wing
@@ -24,8 +23,6 @@ Se intentó usar la tarjeta de desarrollo Pycom Fipy 1.0, pero tiene pines ocult
 La tarjeta utilizada para las primeras pruebas es ESP32-DevKitC-V4 (WROVER 4MB).  
 Pinout:  
 https://components101.com/microcontrollers/esp32-devkitc  
-Las versiones antiguas de Odroid (con terminación psram) funcionan en ESP32 WROVER con memoria de 4 MB.
-https://wiki.odroid.com/odroid_go/firmware_update_oldfw
 
 Se usará un ESP32 con 16MB castelado para el dispositivo final  
 https://www.mouser.mx/ProductDetail/Espressif-Systems/ESP32-WROVER-B-16MB?qs=sGAEpiMZZMu3sxpa5v1qrgLFJPTQ7Q2r6%2Fk%2Fforxl60=  
@@ -38,21 +35,6 @@ https://en.wikipedia.org/wiki/Inverted-F_antenna
 La terminación "-IB" indeca U.FL Antenna  
 https://en.wikipedia.org/wiki/Hirose_U.FL  
 
-## Contribuciones a Odroid-Go  
-https://github.com/32teeth  
-https://github.com/retro-esp32/RetroESP32  
-https://github.com/retro-esp32/Retro-Odroid-Go-Firmware  
-Descripción general y cómo empezar  
-https://wiki.odroid.com/odroid_go/odroid_go  
-Cómo actualizar firmware  
-https://wiki.odroid.com/odroid_go/firmware_update  
-https://github.com/OtherCrashOverride/go-play
-Make SD card  
-https://wiki.odroid.com/odroid_go/make_sd_card  
-Colecciones de aplicaciones  
-https://forum.odroid.com/viewtopic.php?f=159&t=31716  
-https://github.com/chrisdiana/awesome-odroid-go  
-https://www.reddit.com/r/OdroidGo/comments/gk9l2w/collection_of_os_images_for_odroid_go_and_odroid/  
 
 ## Contribucioes a Esplay-Micro
 https://github.com/pebri86/esplay-micro-firmware-collections
@@ -128,3 +110,49 @@ https://articulo.mercadolibre.com.mx/MLM-553195850-lcd-serial-spi-22-240x320-pix
 
 ## Historia de Arcades de Nintendo  
 https://tiredoldhack.com/2017/09/16/the-complete-history-of-nintendo-arcade-games/  
+
+## Software compatible con ESPlay  
+## mejores instrucciones
+Se instaló esp-idf en windows, pero el resultado fue peor.  
+Se intentará en linux nuevamente. Estas instrucciones parecen resolver los problemas.  
+https://forum.odroid.com/viewtopic.php?f=158&t=35558  
+https://forum.odroid.com/viewtopic.php?f=158&t=35558  
+https://forum.odroid.com/viewtopic.php?f=158&t=38651  
+https://forum.odroid.com/viewtopic.php?f=158&t=33624  
+https://docs.espressif.com/projects/esp-idf/en/v3.2.2/get-started/index.html#get-esp-idf  
+
+## cerca de compilar
+El problema actual es no poder construir/compilar esplay-base-firmware  
+(ver releases)  
+https://github.com/pebri86/esplay-base-firmware
+
+Platformio puede servir  
+https://docs.platformio.org/en/latest/boards/espressif32/odroid_esp32.html  
+Zephyr?  
+https://docs.zephyrproject.org/latest/boards/xtensa/odroid_go/doc/index.html  
+
+Foro de odroid. Solucionan error en windows  
+https://forum.odroid.com/viewtopic.php?f=158&t=35558  
+
+Artículos complicados instalar esp-idf  
+https://medium.com/@jungpil.yu/esp-idf-based-development-environment-for-odroid-go-e27ff41b4adf  
+https://lerks.blog/build-apps-for-odroid-go-using-esp-idf/  
+
+Versión parchada esp-idf  
+https://github.com/OtherCrashOverride/esp-idf  
+v3.2-odroid  
+https://github.com/OtherCrashOverride/esp-idf/tree/release/v3.2-odroid  
+
+Doc oficial esp-idf  
+Instalar toolchain  
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/linux-setup.html  
+Get started  
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html  
+Get satarted 4.0.1  
+https://docs.espressif.com/projects/esp-idf/en/stable/get-started/  
+
+Página de esplay en hackaday  
+https://hackaday.io/project/166707-esplay-micro  
+
+Repo de retro-emulation tiene instrucciones de compilación  
+https://github.com/pebri86/esplay-retro-emulation  
