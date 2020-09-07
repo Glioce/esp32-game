@@ -28,3 +28,12 @@ https://en.wikipedia.org/wiki/ESP32
 
 Datasheet  
 https://www.espressif.com/sites/default/files/documentation/esp32-wrover_datasheet_en.pdf  
+
+## Considerar mejoras en PCB
+- Resistencia en serie con bocina. Volumen alto en entrada de amplificador con un poco de ruido. Todo se amplifica pero el ruido se percibe poco. Resistencia en bocina baja el volumen de todo, entonces el ruido se percibe menos.
+- Headers a los lados para insertar TFT (sin headers para touch). ESP tiene que desplazarse, ¿dónde es mejor poner la antena?
+- Recortar PCB hasta distancia de TFT
+- Botones traseros quedan lejos de la tapa, se pueden poner extensiones. Conector USB también queda lejos ¿usar módulo extra?
+- ¿Poner batería, cargador y chip UART?
+- ¿ESP-32 Wrover-E es compatible?
+- Imprimir nombres de pines en PCB
